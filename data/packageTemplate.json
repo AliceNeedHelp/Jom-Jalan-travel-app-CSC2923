@@ -1,0 +1,45 @@
+[
+ {
+    "id": "budget",
+    "name": "Mesra Poket Package",
+    "headline": "Maximum value",
+    "description": "Description: Explore your dream destination without breaking the bank. The Mesra Poket Package is designed for smart travelers who want an authentic, hassle-free getaway covering all core travel essentials. Enjoy comfortable, budget-friendly accommodations, smooth transfers, and curated itineraries that leave you with plenty of freedom to explore at your own pace. Maximum experience, minimum spending.",
+    "duration": "3 days , 2 nights",
+    "price":2200,
+    "features":[
+        "3-Star Budget Private Room",
+        "Digital Travel Guide & Maps"
+    ]
+ },
+
+{
+    "id": "medium",
+    "name": "Sederhana Package",
+    "headline": "The Perfect Balance of Comfort & Adventure",
+    "description": "Upgrade your journey with the ideal blend of comfort, convenience, and immersive local sights. The Medium Package delivers a well-rounded travel experience featuring handpicked mid-range accommodations, guided tours, and seamless daily logistics. Perfect for families, couples, and group travelers seeking a stress-free trip with great value and enhanced comfort. ",
+    "duration": "3 days , 2 nights",
+    "price":3000,
+    "features":[
+        "4-Star hotel",
+        "Private Airport & Hotel Transfers",
+        "English / Local Speaking Guidance",
+        "Top Sightseeing Tickets Included "
+    ]
+ },
+
+{
+    "id": "flagship",
+    "name": "Raja Flagship Package",
+    "headline": "The Ultimate VIP Travel Experience ",
+    "description": " Indulge in an effortless, first-class journey crafted for ultimate comfort and exclusivity. The Raja Flagship Package offers 5-star luxury accommodations, private executive chauffeur transfers, exclusive access to top-tier local experiences, and a dedicated 24/7 personal concierge. Sit back, relax, and experience your destination like royalty with every detail masterfully taken care of. ",
+    "duration": "5 days , 4 nights",
+    "price":5000,
+    "features":[
+        "3-Star Budget Private Room",
+        "Digital Travel Guide & Maps",
+        "Private Chauffeur & Executive Vehicles (VIP Airport Meet & Greet)",
+        "All-Inclusive Fine Dining & Signature Local Culinary Experiences",
+        "100% Private, Flexible Itineraries with VIP Fast-Track Entry "
+    ]
+ }
+]

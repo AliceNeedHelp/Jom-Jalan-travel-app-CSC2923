@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <label for="package">Choose a package: </label>
+    <select id="selection" onchange="displayPackageAgain(this.value)">
+      <option value="">Select a package</option>
+      <option value=0>Mesra Poket Package</option>
+      <option value=1>Sederhana Package</option>
+      <option value=2>Raja Flagship Package</option>
+    </select>
+    <div id="packageContainer"></div>
+    <button id="bookNowButton" style="display: none">Book now</button>
+    <button id="viewBookButton">View Bookings</button>
+
+    <!--Form for user to enter booking information -->
+    <div id="formContainer" style="display: none">
+      <p></p>
+      <p></p>
+      <div>
+          <h1>Booking Modal</h1>
+            <p> Full Name: <input type="text" id="bookName" ></p>
+            <p> Email: <input type="email" id="bookEmail" ></p>
+            <p> Travel Date: <input type="date" id="bookDate" ></p>
+            <p> Guests: <input type="number" id="bookGuest"></p>
+      </div>
+      <button id="confirmBooking" style="display: inline-block">Confirm Booking</button>
+      <button id="updateBooking" style="display: none">Update Booking</button>
+      <button id="cancelBooking">Cancel</button>
+    </div>
+
+    <!--view previous made bookings-->
+    <div style="display: none;" id="bookingContainer"></div>
+
+    <script src="booking.js"></script>
+  </body>
+</html>
